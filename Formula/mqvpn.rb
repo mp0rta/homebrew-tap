@@ -1,9 +1,9 @@
 class Mqvpn < Formula
   desc "Multipath VPN using MASQUE CONNECT-IP (RFC 9484) and Multipath QUIC"
   homepage "https://github.com/mp0rta/mqvpn"
-  version "0.13.3"
+  version "0.13.4"
   url "https://github.com/mp0rta/mqvpn/releases/download/v#{version}/mqvpn_#{version}_darwin_arm64.tar.gz"
-  sha256 "718a7bd9255835ba8a93a8e36317b7ef4e9f605a951dd7fd25f12f14d66cc77d"
+  sha256 "88a3d888376096d2a2bb909f51cd1b7022bc9168b2bdffd2a101ec36e970102c"
   license "Apache-2.0"
 
   depends_on :macos
